@@ -11,8 +11,3 @@ const AdController =  window.AdsModulePgram;
 }).catch((error) => {
     console.log(error); // Logged error in the console
 });
-        AdController.show({ AppId: "0000" }).then((result) => {
-    console.log(result); // Logged result in the console
-}).catch((error) => {
-    console.log(error); // Logged error in the console
-});
