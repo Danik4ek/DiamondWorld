@@ -3,12 +3,19 @@
         <link rel="stylesheet" href="style.css">
         <script src="https://telegram.org/js/telegram-web-app.js"></script>
         <script src="https://richinfo.co/richpartners/telegram/js/rp-ob.js?pub_id=947041&widget_id=354231" async data-cfasync="false"></script>
+        <script src="https://pgram.pro/js/adspgram.min.js"></script>
     </head>
     <body>
         <h1 id="balance" align="center">0</h1>
         <div class="content">
             <button id="button" class="image-button"></button>
         </div>
+        const AdController =  window.AdsModulePgram;
+        AdController.show({ AppId: "6399538" }).then((result) => {
+    console.log(result); // Logged result in the console
+}).catch((error) => {
+    console.log(error); // Logged error in the console
+});
 
         <script src="script.js"></script>
         <!-- Yandex.RTB R-A-12786250-1 -->
