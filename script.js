@@ -6,7 +6,7 @@ buttonId.addEventListener("click",function(){
     balId.textContent=counter
 });
 const AdController =  window.AdsModulePgram;
-AdController.show({ AppId: "0000" }).then((result) => {
+AdController.show({ AppId: "6399538" }).then((result) => {
     console.log(result); // Logged result in the console
 }).catch((error) => {
     console.log(error); // Logged error in the console
